@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+header{
+    background-color: #fff;
+    
+    
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1420px;
+    background-color: rgb(255, 255, 255);
+
+    margin: 20px auto;
+    padding: 15px 20px;
+}
+    
+
+
+
+.navigation{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    gap: 20px;
+    list-style: none;
+    height: auto;
+    width: auto;
+    color: rgb(80, 78, 78);
+
+}
+
+.navigation ul li a {
+    color: #4B5563; 
+}
+
+.btn-container{
+    margin-left: auto;
+}
+.fstbtn{
+    width: 192px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #1D4ED8;
+    color: #fff;
+    cursor: pointer;
+
+    
+}
+/* .fsbtn:hover {
+    background-color: #1E40AF;
+    
+} */
+
+.banner {
+   
+    height: 800px;
+    margin: 0 auto;
+
+    background-image: url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    color: white;
+    text-align: center;
+    max-width: 750px;
+}
+
+.banner-content h1 {
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 22px;
+    
+    margin-bottom: 40px;
+}
+
+.fstobtn {
+    background-color: #1D4ED8;
+    color: #ffffff;
+    padding: 25px 62.5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 150px;
+}
+
+.fstobtn:hover {
+    background-color: #1E40AF;
+}
