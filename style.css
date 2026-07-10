@@ -35,7 +35,7 @@ nav{
     display: flex;
     justify-content: center;
     text-decoration: none;
-    gap: 20px;
+    gap: 35px;
     list-style: none;
     height: auto;
     width: auto;
@@ -54,20 +54,21 @@ nav{
     width: 192px;
     padding: 10px 30px;
     border-radius: 10px;
+    border: none;
     background-color: #1D4ED8;
     color: #fff;
     cursor: pointer;
 
     
 }
-/* .fsbtn:hover {
+.fstbtn:hover {
     background-color: #1E40AF;
     
-} */
+}
 
 .banner {
    
-    height: 800px;
+    height: 850px;
     margin: 0 auto;
 
     background-image: url("./assets/banner.jpg");
@@ -90,6 +91,9 @@ nav{
     font-size: 72px;
     margin-bottom: 20px;
 }
+span{
+    font-style: italic;
+}
 
 .banner-content p {
     font-size: 22px;
@@ -107,7 +111,7 @@ nav{
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .fstobtn:hover {
@@ -190,7 +194,7 @@ nav{
 
 .pricingcontainer{
     display:grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(3,1fr); 
     gap:30px;
 }
 
@@ -201,10 +205,6 @@ nav{
 
 /* skjfsjfsdkljfksf */
 
-.price-card ul li::marker {
-    color: #2563EB;
-    
-}
 
 .pricecard{
     background:#fff;
@@ -255,20 +255,23 @@ nav{
 ;
 }
 
-/* btn */
+/* button */
 
-.primary-btn{
+.pro-btn{
     width:100%;
     padding:16px;
     background:#2563EB;
     color:white;
-    border:none;
     border-radius:8px;
     font-weight:600;
     cursor:pointer;
 }
 
-.outline-btn{
+.pro-btn:hover {
+    background-color: #153268;
+}
+
+.price-btn{
     width:100%;
     padding:16px;
     background:white;
@@ -277,6 +280,10 @@ nav{
     border-radius:8px;
     font-weight:600;
     cursor:pointer;
+}
+
+.price-btn:hover {
+    background-color: #e0e0e0;
 }
 
 
@@ -347,7 +354,7 @@ nav{
     line-height: 1.7;
 }
 
-/* from */
+/*  ai from */
 
 .question-section{
     padding:100px 0;
@@ -440,3 +447,59 @@ nav{
     transform:translateY(-3px);
     box-shadow:0 12px 30px rgba(79,70,229,.35);
 }
+
+/* footer cssssssssssssssssssssssssssssssssssssssssssssssss */
+
+footer {
+    background-color: #0D1B2A;
+    color: #ffffff;
+    padding: 25px 0;
+}
+
+.footerconteiner {
+    width: 90%;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.footertop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footerlogo img {
+    width: 100px;
+}
+
+.Socialmedia {
+    display: flex;
+    gap: 18px;
+}
+
+.Socialmedia a {
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+
+
+.footerdivider {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255,255,255,0.2);
+    margin-bottom: 20px;
+}
+
+.footerconteiner h6 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff9f9;
+}
+
+
+
+
+
