@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     text-decoration: none;
+    font-family: "Inter", sans-serif;
 }
 
 header{
@@ -88,7 +89,7 @@ nav{
 }
 
 .banner-content h1 {
-    font-size: 72px;
+    font-size: 70px;
     margin-bottom: 20px;
 }
 span{
